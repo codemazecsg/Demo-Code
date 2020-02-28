@@ -1,0 +1,36 @@
+<Portfolios>
+	<Portfolio PortfolioId="10001">
+		<Customer>Jack Smith</Customer>
+		<Holdings>
+			<Holding>
+				<tickerSymbol>MSFT</tickerSymbol>
+				<Quantity>150</Quantity>
+			</Holding>
+			<Holding>
+				<tickerSymbol>GOOG</tickerSymbol>
+				<Quantity>100</Quantity>
+			</Holding>
+			<Holding>
+				<tickerSymbol>GM</tickerSymbol>
+				<Quantity>100</Quantity>
+			</Holding>
+		</Holdings>
+	</Portfolio>
+	<Portfolio PortfolioId="10002">
+		<Customer>Jane Doe</Customer>
+		<Holdings>
+			<Holding>
+				<tickerSymbol>MSFT</tickerSymbol>
+				<Quantity>200</Quantity>
+			</Holding>
+			<Holding>
+				<tickerSymbol>AMZN</tickerSymbol>
+				<Quantity>100</Quantity>
+			</Holding>
+			<Holding>
+				<tickerSymbol>KO</tickerSymbol>
+				<Quantity>300</Quantity>
+			</Holding>
+		</Holdings>
+	</Portfolio>
+</Portfolios>

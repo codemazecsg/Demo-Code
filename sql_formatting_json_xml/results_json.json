@@ -1,0 +1,40 @@
+{
+	"Portfolios": [
+		{
+			"PortfolioId": 10001,
+			"CustomerName": "Jack Smith",
+			"Holdings": [
+				{
+					"Tickersymbol": "MSFT",
+					"Quantity": 150
+				},
+				{
+					"Tickersymbol": "GOOG",
+					"Quantity": 100
+				},
+				{
+					"Tickersymbol": "GM",
+					"Quantity": 100
+				}
+			]
+		},
+		{
+			"PortfolioId": 10002,
+			"CustomerName": "Jane Doe",
+			"Holdings": [
+				{
+					"Tickersymbol": "MSFT",
+					"Quantity": 200
+				},
+				{
+					"Tickersymbol": "AMZN",
+					"Quantity": 100
+				},
+				{
+					"Tickersymbol": "KO",
+					"Quantity": 300
+				}
+			]
+		}
+	]
+}
