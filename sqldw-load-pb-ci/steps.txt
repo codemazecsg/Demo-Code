@@ -1,0 +1,20 @@
+
+Assuming you have a SQLDW/Synapse Server
+
+1.  Register the system managed identity using Powershell (use register-sqldw.ps1 as a guide)
+2.  Grant permissions to SQLDW to ADLSGen2 (++Storage Blob Contributor)
+3.  Create & assign load user
+
+either:
+
+[POLYBASE]:
+4.  Create external objects 
+5.  Create external table
+6.  Logon as loaduser & Load table w/ CTAS
+
+---
+
+[COPY INTO]:
+4.  Create dbo owned table
+5.  Logon as loaduser & Load table w/ COPY INTO
+
